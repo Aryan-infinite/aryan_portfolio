@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/research",
+      "destination": "/"
+    },
+    {
+      "source": "/projects",
+      "destination": "/"
+    },
+    {
+      "source": "/experience",
+      "destination": "/"
+    },
+    {
+      "source": "/people",
+      "destination": "/"
+    },
+    {
+      "source": "/about",
+      "destination": "/"
+    }
+  ]
+}
