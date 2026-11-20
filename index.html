@@ -450,6 +450,111 @@ body[data-page="home"] .portrait-explore:hover span{transform:translate(3px,3px)
  body[data-page="home"] .hero .education-list{gap:9px 16px}
 }
 
+
+/* FINAL HERO FIX: explicit two-column layout, independent of route state */
+@media (min-width: 801px) {
+  .hero[data-pages~="home"] {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(360px, .82fr) !important;
+    grid-template-rows: auto !important;
+    grid-template-areas: "intro portrait" !important;
+    align-items: center !important;
+    justify-content: stretch !important;
+    gap: clamp(34px, 4vw, 64px) !important;
+    width: min(1160px, calc(100% - 64px)) !important;
+    min-height: 0 !important;
+    padding: 58px 0 64px !important;
+    margin: 0 auto !important;
+  }
+  .hero[data-pages~="home"] > div:first-child {
+    grid-area: intro !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 570px !important;
+    min-width: 0 !important;
+    align-self: center !important;
+    margin: 0 !important;
+  }
+  .hero[data-pages~="home"] > .portrait {
+    grid-area: portrait !important;
+    display: block !important;
+    position: relative !important;
+    width: 100% !important;
+    max-width: 455px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 4 / 5 !important;
+    justify-self: end !important;
+    align-self: center !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .hero[data-pages~="home"] > .portrait img,
+  .hero[data-pages~="home"] > .portrait .placeholder {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    aspect-ratio: 4 / 5 !important;
+    object-fit: cover !important;
+    object-position: center 30% !important;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+  }
+  .hero[data-pages~="home"] .photo-caption { display: none !important; }
+  .hero[data-pages~="home"] h1 {
+    font-size: clamp(3.6rem, 5.3vw, 5.7rem) !important;
+    margin: 16px 0 20px !important;
+    line-height: .98 !important;
+  }
+  .hero[data-pages~="home"] .lead { max-width: 520px !important; }
+  .hero[data-pages~="home"] .education-block { margin-top: 25px !important; }
+}
+@media (max-width: 800px) {
+  .hero[data-pages~="home"] {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 22px !important;
+    width: calc(100% - 36px) !important;
+    min-height: 0 !important;
+    padding: 32px 0 44px !important;
+    margin: 0 auto !important;
+  }
+  .hero[data-pages~="home"] > div:first-child {
+    order: 1 !important;
+    display: block !important;
+    width: 100% !important;
+    max-width: 620px !important;
+    margin: 0 !important;
+  }
+  .hero[data-pages~="home"] > .portrait {
+    order: 2 !important;
+    display: block !important;
+    position: relative !important;
+    width: min(100%, 430px) !important;
+    max-width: 430px !important;
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: 4 / 5 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
+  .hero[data-pages~="home"] > .portrait img,
+  .hero[data-pages~="home"] > .portrait .placeholder {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    aspect-ratio: 4 / 5 !important;
+    object-fit: cover !important;
+    object-position: center 30% !important;
+    border-radius: 3px !important;
+  }
+  .hero[data-pages~="home"] .photo-caption { display: none !important; }
+}
+
 </style>
 </head>
 <body>
