@@ -178,6 +178,16 @@ body[data-page="projects"] .selected-section{display:block!important}
  #projects .project-copy h3{font-size:1.4rem}
  #projects .project-description{font-size:.86rem;line-height:1.72}
 }
+
+#research .research-list{grid-template-columns:1fr 1fr;gap:14px}
+#research .research-card{min-height:0;padding:23px 24px 21px;gap:0}
+#research .research-card.featured{grid-column:1/-1;grid-template-columns:.88fr 1.12fr;gap:34px;padding:28px 30px}
+#research .research-card h3{font-size:clamp(1.28rem,2vw,1.55rem);line-height:1.22;margin:9px 0 13px}
+#research .research-card p{font-size:.86rem;line-height:1.78;color:#a8b6c8;margin:0 0 12px}
+#research .research-card p strong{color:var(--ink);font-weight:700}
+#research .research-card .research-link{margin-top:auto;padding-top:13px}
+#research .research-detail{display:flex;flex-direction:column;align-items:flex-start}
+@media(max-width:760px){#research .research-list{grid-template-columns:1fr}#research .research-card.featured{grid-template-columns:1fr;gap:8px;padding:23px 21px}}
 </style>
 </head>
 <body>
@@ -224,28 +234,28 @@ body[data-page="projects"] .selected-section{display:block!important}
   <div class="sectionhead"><div><span class="label">01 / Research</span><h2>Questions first. Methods made visible.</h2></div><p>Independent and collaborative work across algorithmic fairness, public-health data, and machine learning. Publication status is stated as it stands.</p></div>
   <div class="research-list" id="researchGrid">
    <article class="research-card featured">
-    <div><span class="card-label">Flagship · First-author preprint</span><h3>Does Group Fairness Guarantee Recourse Fairness?</h3><p><strong>Question.</strong> If a model is made fair across groups, can people it rejects also access equally reachable ways to change the decision?</p></div>
-    <div class="research-detail"><p><strong>Data & method.</strong> Adult Census Income and COMPAS; tests two fairness interventions across 30 random splits, examining whether group-level fairness changes translate into individual recourse.</p><a class="research-link" href="https://doi.org/10.20944/preprints202611.0608.v1" target="_blank" rel="noreferrer">Read first-author preprint ↗</a></div>
+    <div><span class="card-label">Flagship · First-author preprint</span><h3>Does Group Fairness Guarantee Recourse Fairness?</h3><p><strong>Research question.</strong> Fairness metrics usually assess how a model treats groups. This study asks whether a fairness intervention also makes the path to a different outcome equally reachable for people the model rejects.</p></div>
+    <div class="research-detail"><p><strong>Data and approach.</strong> I examine the Adult Census Income and COMPAS decision domains using linear classifiers. The experiments compare a baseline with Reweighing and covariance-penalized logistic regression, then assess group-fairness measures alongside the geometric distance from a rejected individual's case to the model's decision boundary.</p><p><strong>My work.</strong> I led the study's conceptualization, methodology, implementation, validation, and analysis. The evaluation uses 30 randomized data splits, with repeated model fitting and penalty sweeps to test the stability of the analysis. This distance is a mathematical measure under the model, not a claim that every feature can be changed in real life.</p><a class="research-link" href="https://doi.org/10.20944/preprints202611.0608.v1" target="_blank" rel="noreferrer">Read first-author preprint ↗</a></div>
    </article>
    <article class="research-card">
     <span class="card-label">Public health · Paper under peer review</span><h3>Dengue Lens Nepal</h3>
-    <p><strong>Question.</strong> Can Google search activity help track changes in reported dengue cases in Nepal?</p>
-    <p><strong>Data & method.</strong> Compares Google Trends activity with 161,892 confirmed cases across 72 months.</p>
-    
+    <p><strong>Research question.</strong> Could online search behaviour provide a timely signal that complements routine dengue surveillance in Nepal?</p>
+    <p><strong>Data and approach.</strong> The study brings together 72 monthly observations from 2019–2024, Google Trends activity for three dengue-related search terms, and 161,892 laboratory-confirmed cases. It examines contemporaneous associations and time-lag patterns using correlation and regression methods, asking whether changes in search interest track changes in reported disease activity.</p>
+    <p><strong>My work.</strong> I led the study and its data analysis, including assembling the monthly series, comparing search terms, and examining the relationship between search activity and confirmed cases. The paper is under peer review.</p>
     <a class="research-link" href="https://zenodo.org/records/21773367" target="_blank" rel="noreferrer">Paper and data ↗</a>
    </article>
    <article class="research-card">
     <span class="card-label">Machine learning · Co-author</span><h3>E. coli ciprofloxacin resistance</h3>
-    <p><strong>Question.</strong> How well do genome-based resistance predictions validate across populations?</p>
-    <p><strong>Contribution.</strong> Co-author; contributed to model validation.</p>
-    
+    <p><strong>Research question.</strong> Do genome-based models for predicting ciprofloxacin resistance remain reliable when evaluated on bacterial populations from different geographic settings?</p>
+    <p><strong>Data and approach.</strong> This collaborative study develops a genome-based prediction workflow and evaluates transfer across geographically distinct E. coli datasets. It considers both predictive discrimination and the reliability of predicted probabilities, using external validation and post-hoc recalibration to examine model confidence beyond the training population.</p>
+    <p><strong>My contribution.</strong> I contributed to software, formal analysis, and model validation, and assisted with reviewing and editing the manuscript.</p>
     <a class="research-link" href="https://www.preprints.org/manuscript/202610.1038" target="_blank" rel="noreferrer">Read preprint ↗</a>
    </article>
    <article class="research-card">
     <span class="card-label">Survey research · Bhairahawa</span><h3>Caffeine use among 204 adults</h3>
-    <p><strong>Question.</strong> What do caffeine-use patterns look like among adults in Bhairahawa?</p>
-    <p><strong>Data & method.</strong> Survey of 204 adults in Bhairahawa.</p>
-    
+    <p><strong>Research question.</strong> How do adults in Bhairahawa consume caffeinated drinks, and what patterns of dependence or withdrawal do they report?</p>
+    <p><strong>Data and approach.</strong> The survey collected responses from 204 adults in Siddharthanagar-09, Bhairahawa. It examined consumption frequency and drink preferences, timing of use including consumption on an empty stomach, and self-reported dependence and withdrawal experiences. Descriptive statistics and group comparisons were used to characterize the responses.</p>
+    <p><strong>My work.</strong> I contributed to the study's statistical analysis and interpretation of the survey data.</p>
     <a class="research-link" href="https://zenodo.org/records/21785947" target="_blank" rel="noreferrer">Study record ↗</a>
    </article>
   </div>
