@@ -4,117 +4,164 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R] /Count 2 >>
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
 endobj
 3 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 4 0 R /Annots [9 0 R 10 0 R 11 0 R 12 0 R 13 0 R 14 0 R 15 0 R 16 0 R] >>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+<< /Length 5031 >>
+stream
+0.11 0.16 0.21 rg BT /F2 23 Tf 48 750.0 Td (ARYAN BHUSAL) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.2 Tf 48 726.0 Td (Bhairahawa, Nepal  |  aryanbhusal783@gmail.com  |  aryanbhusal.com.np) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.2 Tf 48 714.0 Td (GitHub: github.com/Aryan-infinite) Tj ET
+0.72 w 48 706 m 564 706 l S
+BT /F1 7 Tf 530 24 Td (Page 1 of 2) Tj ET
+0.18 0.25 0.31 rg BT /F2 10.2 Tf 48 693.0 Td (PROFILE) Tj ET
+0.72 w 48 684 m 564 684 l S
+0.16 0.19 0.22 rg BT /F1 8.2 Tf 48 677.0 Td (Independent researcher and software builder from Bhairahawa, Nepal. My work spans algorithmic fairness, digital) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.2 Tf 48 666.5 Td (epidemiology, education data systems, and practical public-interest tools.) Tj ET
+0.18 0.25 0.31 rg BT /F2 10.2 Tf 48 653.0 Td (EDUCATION) Tj ET
+0.72 w 48 644 m 564 644 l S
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 637.0 Td (Horizon G.B.S. | NEB +2, Computer Science | 2025) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 626.4 Td (GPA 3.82/4.00; Grade 12 rank 4 of approximately 1,000. SAT 1520; IELTS 7.5.) Tj ET
+0.18 0.25 0.31 rg BT /F2 10.2 Tf 48 613.3 Td (RESEARCH | FOUR PUBLIC RESEARCH OUTPUTS) Tj ET
+0.72 w 48 604.3 m 564 604.3 l S
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 597.3 Td (Does Group Fairness Guarantee Recourse Fairness? An Empirical Test Across Two Decision Domains | First author) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 586.7 Td (Preprint. Tested whether group-fairness interventions also reduce disparities in algorithmic recourse across Adult) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 576.6 Td (Census Income and COMPAS. Led study design, methodology, software, validation, analysis, and manuscript preparation.) Tj ET
+0.18 0.35 0.47 rg BT /F1 7.7 Tf 48 566.5 Td (Link: Read preprint) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 557.1 Td (Google Trends search activity and laboratory-confirmed dengue cases in Nepal, 2019-2024 | Lead researcher, first author) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 546.5 Td (Under peer review. Compared Google Trends activity with 161,892 reported dengue cases across 72 months, using) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 536.4 Td (correlation, regression, and time-lag models to examine whether search behaviour may complement national surveillance.) Tj ET
+0.18 0.35 0.47 rg BT /F1 7.7 Tf 48 526.3 Td (Link: Study record) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 516.9 Td (Cross-Population Transfer and Post-Hoc Recalibration of Genome-Based Ciprofloxacin Resistance Prediction in Escherichia coli | Co-author) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 506.3 Td (Contributed model validation, software, and formal analysis to a genome-based antimicrobial-resistance study examining) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 496.2 Td (transfer across UK, Norwegian, and South Asian populations, including Platt scaling, ridge recalibration, and bootstrap) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 486.1 Td (analysis.) Tj ET
+0.18 0.35 0.47 rg BT /F1 7.7 Tf 48 476.0 Td (Link: Preprint) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 466.6 Td (Caffeine Consumption Patterns, Awareness, and Self-Reported Health Effects Among Adults in Nepal | Co-author) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 456.0 Td (Contributed statistical analysis and interpretation for a bilingual community survey of 204 adults in Bhairahawa.) Tj ET
+0.18 0.35 0.47 rg BT /F1 7.7 Tf 48 445.9 Td (Link: Study record) Tj ET
+0.18 0.25 0.31 rg BT /F2 10.2 Tf 48 433.5 Td (PROJECTS & PUBLIC TOOLS) Tj ET
+0.72 w 48 424.4999999999998 m 564 424.4999999999998 l S
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 417.5 Td (Dengue Lens Nepal | Co-founder / co-developer) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 406.9 Td (Built a free public website that recalculates and visualizes national dengue statistics for public inspection.) Tj ET
+0.18 0.35 0.47 rg BT /F1 7.7 Tf 48 396.8 Td (Link: Open public website) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 387.4 Td (Nepal Education Data Engine | Project lead and developer) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 376.8 Td (Built a Python pipeline and live dashboard turning school-census PDFs in English and Devanagari into structured data.) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 366.7 Td (Coordinated outreach to approximately 11,000 schools, receiving about 10,000 responses; presented recommendations) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 356.6 Td (proposing two public-data reforms.) Tj ET
+0.18 0.35 0.47 rg BT /F1 7.7 Tf 48 346.5 Td (Link: Live dashboard) Tj ET
+0.18 0.35 0.47 rg BT /F1 7.7 Tf 48 337.1 Td (Link: GitHub repository) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 327.7 Td (IOE Past Papers Archive | Co-founder and Technical Lead) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 317.1 Td (Led development of a free engineering past-paper archive and coordinated 10 moderators organizing and verifying) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 307.0 Td (resources across 20+ departments. The platform has reached 150+ users and engaged 100+ students.) Tj ET
+0.18 0.35 0.47 rg BT /F1 7.7 Tf 48 296.9 Td (Link: Open archive) Tj ET
+endstream
 endobj
 5 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 6 0 R /Annots [] >>
 endobj
 6 0 obj
-<< /Length 4097 >>
+<< /Length 4910 >>
 stream
-BT /F2 23 Tf 48 752 Td (ARYAN BHUSAL) Tj ET
-BT /F1 8.5 Tf 48 730 Td (Bhairahawa, Nepal  |  aryanbhusal783@gmail.com  |  aryanbhusal.com.np) Tj ET
-BT /F1 8.5 Tf 48 716 Td (GitHub: github.com/Aryan-infinite) Tj ET
-0.65 w 48 705 m 564 705 l S
-BT /F2 10.5 Tf 48 688 Td (PROFILE) Tj ET
-BT /F1 8.55 Tf 48 672 Td (Independent researcher and software builder working across algorithmic fairness, public-health data,) Tj ET
-BT /F1 8.55 Tf 48 659.6 Td (and education technology. I build data workflows and practical tools, and co-founded a free learning) Tj ET
-BT /F1 8.55 Tf 48 647.2 Td (initiative in Bhairahawa. Interested in machine learning, statistical methods, and responsible AI.) Tj ET
-BT /F2 10.5 Tf 48 630.8000000000001 Td (EDUCATION) Tj ET
-BT /F1 8.55 Tf 48 614.8000000000001 Td (Horizon G.B.S. | NEB +2, Computer Science | 2025) Tj ET
-BT /F1 8.55 Tf 48 602.4000000000001 Td (GPA: 3.82 | Grade 12 rank: 4 of approximately 1,000 students) Tj ET
-BT /F1 8.55 Tf 48 590.0000000000001 Td (SAT: 1520 | IELTS: 7.5) Tj ET
-BT /F2 10.5 Tf 48 573.6000000000001 Td (RESEARCH) Tj ET
-BT /F1 8.55 Tf 48 557.6000000000001 Td (Does Group Fairness Guarantee Recourse Fairness? An Empirical Test Across Two Decision Domains) Tj ET
-BT /F1 8.55 Tf 48 545.2000000000002 Td (First-author preprint, November 2026. Studied whether group-fairness interventions also reduce disparities) Tj ET
-BT /F1 8.55 Tf 48 532.8000000000002 Td (in algorithmic recourse across Adult Census Income and COMPAS using linear classifiers, Reweighing, and) Tj ET
-BT /F1 8.55 Tf 48 520.4000000000002 Td (covariance-penalized logistic regression. Led conceptualization, methodology, software, validation, and analysis.) Tj ET
-BT /F1 8.55 Tf 48 508.0000000000002 Td (Preprint: preprints.org/manuscript/202611.0608) Tj ET
-BT /F1 8.55 Tf 48 495.60000000000025 Td (Google Trends search activity and laboratory-confirmed dengue cases in Nepal, 2019-2024) Tj ET
-BT /F1 8.55 Tf 48 483.2000000000003 Td (First-authored study under peer review. Analyzed 72 monthly observations and 161,892 confirmed cases,) Tj ET
-BT /F1 8.55 Tf 48 470.8000000000003 Td (comparing three search terms with national surveillance data using correlation, regression, and time-lag analysis.) Tj ET
-BT /F1 8.55 Tf 48 458.4000000000003 Td (Study record: zenodo.org/records/21773367) Tj ET
-BT /F1 8.55 Tf 48 446.00000000000034 Td (Cross-Population Transfer and Post-Hoc Recalibration of Genome-Based Ciprofloxacin Resistance Prediction) Tj ET
-BT /F1 8.55 Tf 48 433.60000000000036 Td (in Escherichia coli | Co-author. Contributed software, formal analysis, model validation, and manuscript review.) Tj ET
-BT /F1 8.55 Tf 48 421.2000000000004 Td (Preprint: preprints.org/manuscript/202610.1038) Tj ET
-BT /F1 8.55 Tf 48 408.8000000000004 Td (Caffeine Consumption Patterns, Awareness, and Self-Reported Health Effects Among Adults in Nepal) Tj ET
-BT /F1 8.55 Tf 48 396.40000000000043 Td (Co-author. Contributed statistical analysis and interpretation for a cross-sectional survey of 204 adults.) Tj ET
-BT /F1 8.55 Tf 48 384.00000000000045 Td (Study record: zenodo.org/records/21785947) Tj ET
-BT /F2 10.5 Tf 48 367.6000000000005 Td (SELECTED TECHNICAL PROJECTS) Tj ET
-BT /F1 8.55 Tf 48 351.6000000000005 Td (Nepal Education Data Engine | Built a Python pipeline and dashboard for NEB school data, processing) Tj ET
-BT /F1 8.55 Tf 48 339.2000000000005 Td (English- and Devanagari-language PDFs. Coordinated outreach to 11,000 schools, receiving about 10,000) Tj ET
-BT /F1 8.55 Tf 48 326.8000000000005 Td (responses; prepared policy recommendations and proposed two reforms to the relevant ministry.) Tj ET
-BT /F1 8.55 Tf 48 314.40000000000055 Td (Live dashboard: nepal-education-data-engine.streamlit.app) Tj ET
-BT /F1 8.55 Tf 48 302.00000000000057 Td (IOE Past Papers | Co-founder and Technical Lead. Built a student-driven engineering past-paper platform) Tj ET
-BT /F1 8.55 Tf 48 289.6000000000006 Td (serving 150+ users, engaging 100+ students, and covering 20+ departments across IOE Thapathali and Pulchowk.) Tj ET
-BT /F1 8.55 Tf 48 277.2000000000006 Td (ioepastpapers.com) Tj ET
+0.11 0.16 0.21 rg BT /F2 23 Tf 48 750.0 Td (ARYAN BHUSAL) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.2 Tf 48 726.0 Td (Bhairahawa, Nepal  |  aryanbhusal783@gmail.com  |  aryanbhusal.com.np) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.2 Tf 48 714.0 Td (GitHub: github.com/Aryan-infinite) Tj ET
+0.72 w 48 706 m 564 706 l S
+BT /F1 7 Tf 530 24 Td (Page 2 of 2) Tj ET
+0.18 0.25 0.31 rg BT /F2 10.2 Tf 48 693.0 Td (LEADERSHIP & COMMUNITY) Tj ET
+0.72 w 48 684 m 564 684 l S
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 677.0 Td (Leadership Skill Development Training \(LSDT\) | Co-founder; former Admin Manager) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 666.4 Td (Co-founded a free weekly leadership program in Bhairahawa that grew from about 15 participants to 100+ attendees per) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 656.3 Td (session and roughly 400 participants a month. The Common App submitted 15 November 2026 reported 220 sessions held. Led) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 646.2 Td (administration and guest outreach, then handed the role to a new leader; the program continues weekly.) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 636.1 Td (ICT Club of Horizon G.B.S. | Relation Manager; Tech and Event Lead) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 625.5 Td (Led a coding olympiad for 32 schools and approximately 200 students; co-wrote problem sets, ran five AI workshops, and) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 615.4 Td (led 12 district and two national events. Arranged online sessions with specialists in computer science, data science,) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 605.3 Td (and AI.) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 595.2 Td (CMS MACFAIR International, Lucknow | Team Leader) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 584.6 Td (Led Rupandehi's only eight-member team at a festival of 72 teams from four countries. Reached the Science Quiz final as) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 574.5 Td (the only Nepali finalist and directed the school's drama entry to the final.) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 564.4 Td (Rotaract Club of Matribhumi Baluwatar | Executive Member) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 553.8 Td (Helped raise NPR 150,000 for Rasuwa flood relief and organized an outreach visit serving 50+ residents of an old-age) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 543.7 Td (home; participated in weekly community service.) Tj ET
+0.18 0.25 0.31 rg BT /F2 10.2 Tf 48 530.6 Td (EXPERIENCE) Tj ET
+0.72 w 48 521.5999999999997 m 564 521.5999999999997 l S
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 514.6 Td (Nirvana Tech | Full-Stack Developer Intern | Aug 2025-Mar 2026) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 504.0 Td (Built two commercial e-commerce websites for paying clients, developing responsive front ends and Django backends with) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 493.9 Td (database integration. Delivered live storefronts and received project-completion and honor certificates.) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 483.8 Td (IOE Past Papers Archive | Co-founder and Technical Lead | Jan-May 2026) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 473.2 Td (Led development and managed a 10-member moderator team organizing and verifying past papers across 20+ departments.) Tj ET
+0.13 0.17 0.21 rg BT /F2 8.8 Tf 48 463.1 Td (Rotaract Club of Matribhumi Baluwatar | Executive Member | Aug 2025-present) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 452.5 Td (Helped raise NPR 150,000 for Rasuwa flood relief and organized an outreach visit serving 50+ residents of an old-age) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.05 Tf 48 442.4 Td (home.) Tj ET
+0.18 0.25 0.31 rg BT /F2 10.2 Tf 48 429.3 Td (HONORS) Tj ET
+0.72 w 48 420.2999999999995 m 564 420.2999999999995 l S
+0.16 0.19 0.22 rg BT /F1 8.15 Tf 48 413.3 Td (District Mathematics Olympiad - District 3rd.) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.15 Tf 48 403.1 Td (Presidential Scholarship \(Grades 11-12\); class rank 3; entrance rank 4; Dean's Merit List.) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.15 Tf 48 392.9 Td (PEA-IT Quiz - Lumbini Province Winner; NPR 45,000 worth of rewards and courses.) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.15 Tf 48 382.7 Td (CMS MACFAIR International - Science Quiz finalist; only Nepali finalist among 72 teams from four countries.) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.15 Tf 48 372.5 Td (Skill Prompt's Coding Hackathon - Winner.) Tj ET
+0.18 0.25 0.31 rg BT /F2 10.2 Tf 48 359.3 Td (TECHNICAL & RESEARCH SKILLS) Tj ET
+0.72 w 48 350.29999999999956 m 564 350.29999999999956 l S
+0.16 0.19 0.22 rg BT /F1 8.15 Tf 48 343.3 Td (Programming: Python, JavaScript, HTML, CSS, Django. Research: machine learning, algorithmic fairness, statistical) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.15 Tf 48 332.9 Td (analysis, model validation, calibration, time-series analysis, and scientific writing. Tools: Git, GitHub, Streamlit,) Tj ET
+0.16 0.19 0.22 rg BT /F1 8.15 Tf 48 322.5 Td (and data-processing workflows.) Tj ET
 endstream
 endobj
 7 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 8 0 obj
-<< /Length 4426 >>
-stream
-BT /F2 23 Tf 48 752 Td (ARYAN BHUSAL) Tj ET
-BT /F1 8.5 Tf 48 730 Td (CURRICULUM VITAE  |  Bhairahawa, Nepal  |  aryanbhusal783@gmail.com) Tj ET
-0.65 w 48 719 m 564 719 l S
-BT /F2 10.5 Tf 48 702 Td (LEADERSHIP AND COMMUNITY) Tj ET
-BT /F1 8.55 Tf 48 686 Td (Leadership Skill Development Training \(LSDT\) | Co-founder | 2023-present) Tj ET
-BT /F1 8.55 Tf 48 673.6 Td (Co-founded a free weekly leadership and public-speaking program in Bhairahawa with Bijay Pandey.) Tj ET
-BT /F1 8.55 Tf 48 661.2 Td (It grew from about 15 participants to roughly 400 monthly participants and 1,500+ registered members.) Tj ET
-BT /F1 8.55 Tf 48 648.8000000000001 Td (The initiative had reached 220 sessions by October 2026 and 257 by November 2026.) Tj ET
-BT /F1 8.55 Tf 48 636.4000000000001 Td (Led administration and guest outreach, then handed the role to a new leader so the program could continue.) Tj ET
-BT /F1 8.55 Tf 48 624.0000000000001 Td (Helped build its programming and feedback process; taught basic computer skills to 300 members and) Tj ET
-BT /F1 8.55 Tf 48 611.6000000000001 Td (public-speaking and microphone skills to 1,000+ participants. Helped two students access full scholarships) Tj ET
-BT /F1 8.55 Tf 48 599.2000000000002 Td (at Horizon G.B.S. through Attotech opportunities. Members take rotating roles in running sessions.) Tj ET
-BT /F1 8.55 Tf 48 586.8000000000002 Td (LSDT Youth | Co-founder and President, Grades 11-12. Built a smaller peer-led cohort and a handover) Tj ET
-BT /F1 8.55 Tf 48 574.4000000000002 Td (structure for continued youth-led programming.) Tj ET
-BT /F1 8.55 Tf 48 562.0000000000002 Td (ICT Club, Horizon G.B.S. | Relation Manager | 2023-2025) Tj ET
-BT /F1 8.55 Tf 48 549.6000000000003 Td (Led a district coding olympiad involving 32 schools and about 200 students; co-wrote the problem sets and) Tj ET
-BT /F1 8.55 Tf 48 537.2000000000003 Td (arranged online sessions with specialists in computer science, data science, and AI. Coordinated outreach) Tj ET
-BT /F1 8.55 Tf 48 524.8000000000003 Td (and guests for 10+ district events and two national events; organized five AI workshops.) Tj ET
-BT /F1 8.55 Tf 48 512.4000000000003 Td (MACFAIR, Lucknow, India | Team Leader | 2024) Tj ET
-BT /F1 8.55 Tf 48 500.00000000000034 Td (Led Rupandehi's only eight-member team at an international festival of 72 teams from five countries.) Tj ET
-BT /F1 8.55 Tf 48 487.60000000000036 Td (Reached the Science Quiz final as the only Nepali finalist and directed the school's drama entry.) Tj ET
-BT /F2 10.5 Tf 48 471.2000000000004 Td (PROFESSIONAL EXPERIENCE) Tj ET
-BT /F1 8.55 Tf 48 455.2000000000004 Td (Nirvana Tech | Full-Stack Developer Intern | June-December 2025) Tj ET
-BT /F1 8.55 Tf 48 442.8000000000004 Td (Contributed to two commercial website projects, refining front-end features for e-commerce-style) Tj ET
-BT /F1 8.55 Tf 48 430.40000000000043 Td (storefronts and connecting workflows with Django-based backend services. Completed about 280 hours) Tj ET
-BT /F1 8.55 Tf 48 418.00000000000045 Td (over 35 weeks and received NPR 25,000 in compensation.) Tj ET
-BT /F2 10.5 Tf 48 401.6000000000005 Td (ADDITIONAL LEADERSHIP AND SERVICE) Tj ET
-BT /F1 8.55 Tf 48 385.6000000000005 Td (Interact Club of Alliance Downtown Butwal \(ICAD\) | Joint Treasurer / Project Lead) Tj ET
-BT /F1 8.55 Tf 48 373.2000000000005 Td (Rotaract Club of Matribhumi Baluwatar | Executive and charter-event roles) Tj ET
-BT /F2 10.5 Tf 48 356.8000000000005 Td (TECHNICAL AND RESEARCH SKILLS) Tj ET
-BT /F1 8.55 Tf 48 340.8000000000005 Td (Programming: Python, JavaScript, HTML, CSS, Django, data processing and dashboard development.) Tj ET
-BT /F1 8.55 Tf 48 328.40000000000055 Td (Research: machine learning, algorithmic fairness, statistical analysis, model validation, calibration,) Tj ET
-BT /F1 8.55 Tf 48 316.00000000000057 Td (time-series analysis, public-health data, literature review, and scientific writing.) Tj ET
-BT /F1 8.55 Tf 48 303.6000000000006 Td (Tools: Git and GitHub, Streamlit, Supabase, spreadsheet and PDF data workflows.) Tj ET
-BT /F2 10.5 Tf 48 287.2000000000006 Td (SELECTED LINKS) Tj ET
-BT /F1 8.55 Tf 48 271.2000000000006 Td (Portfolio: aryanbhusal.com.np  |  GitHub: github.com/Aryan-infinite) Tj ET
-BT /F1 8.55 Tf 48 258.80000000000064 Td (Nepal Education Data Engine: nepal-education-data-engine.streamlit.app) Tj ET
-BT /F1 8.55 Tf 48 246.40000000000063 Td (IOE Past Papers: ioepastpapers.com) Tj ET
-endstream
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+9 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 564.4999999999999 564 575.4999999999999] /Border [0 0 0] /A << /S /URI /URI (https://doi.org/10.20944/preprints202611.0608.v1) >> >>
+endobj
+10 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 524.2999999999998 564 535.2999999999998] /Border [0 0 0] /A << /S /URI /URI (https://zenodo.org/records/21773367) >> >>
+endobj
+11 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 473.9999999999998 564 484.9999999999998] /Border [0 0 0] /A << /S /URI /URI (https://www.preprints.org/manuscript/202610.1038) >> >>
+endobj
+12 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 443.89999999999975 564 454.89999999999975] /Border [0 0 0] /A << /S /URI /URI (https://zenodo.org/records/21785947) >> >>
+endobj
+13 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 394.7999999999997 564 405.7999999999997] /Border [0 0 0] /A << /S /URI /URI (https://dengue-pulse-nepal.lovable.app/) >> >>
+endobj
+14 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 344.49999999999966 564 355.49999999999966] /Border [0 0 0] /A << /S /URI /URI (https://nepal-education-data-engine.streamlit.app/) >> >>
+endobj
+15 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 335.0999999999997 564 346.0999999999997] /Border [0 0 0] /A << /S /URI /URI (https://github.com/Aryan-infinite/nepal-education-data-engine) >> >>
+endobj
+16 0 obj
+<< /Type /Annot /Subtype /Link /Rect [48 294.89999999999964 564 305.89999999999964] /Border [0 0 0] /A << /S /URI /URI (https://www.ioepastpapers.com/) >> >>
 endobj
 xref
-0 9
+0 17
 0000000000 65535 f 
 0000000027 00000 n 
 0000000076 00000 n 
 0000000139 00000 n 
-0000000209 00000 n 
-0000000284 00000 n 
-0000000420 00000 n 
-0000004569 00000 n 
-0000004705 00000 n 
+0000000340 00000 n 
+0000005423 00000 n 
+0000005570 00000 n 
+0000010532 00000 n 
+0000010602 00000 n 
+0000010677 00000 n 
+0000010866 00000 n 
+0000011043 00000 n 
+0000011233 00000 n 
+0000011412 00000 n 
+0000011593 00000 n 
+0000011787 00000 n 
+0000011990 00000 n 
 trailer
-<< /Size 9 /Root 1 0 R >>
+<< /Size 17 /Root 1 0 R >>
 startxref
-9183
+12164
 %%EOF
