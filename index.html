@@ -124,6 +124,23 @@ footer{padding:20px 0 28px;color:#737b81;font-size:.7rem;display:flex;justify-co
  footer{display:block}footer span{display:block;margin:4px 0}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Route visibility: the route controller sets body[data-page]. */
+[data-pages]{display:none!important}
+body[data-page="home"] [data-pages~="home"]{display:block!important}
+body[data-page="home"] .hero[data-pages~="home"]{display:grid!important}
+body[data-page="research"] [data-pages~="research"]{display:block!important}
+body[data-page="projects"] [data-pages~="projects"]{display:block!important}
+body[data-page="experience"] [data-pages~="experience"]{display:block!important}
+body[data-page="people"] [data-pages~="people"]{display:block!important}
+body[data-page="about"] [data-pages~="about"]{display:block!important}
+body[data-page="home"] .selected-section,
+body[data-page="research"] .selected-section,
+body[data-page="experience"] .selected-section,
+body[data-page="people"] .selected-section,
+body[data-page="about"] .selected-section{display:none!important}
+body[data-page="projects"] .selected-section{display:block!important}
+@media(max-width:620px){body[data-page="home"] .hero[data-pages~="home"]{display:flex!important}}
 </style>
 </head>
 <body>
