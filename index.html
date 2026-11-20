@@ -210,6 +210,12 @@ body[data-page="projects"] .selected-section{display:block!important}
 .org-inline-head p{margin:0;color:#58616a;font-size:.78rem}
 .organizations-row{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px;align-items:stretch}
 .organizations-row .organization-item{min-width:0;min-height:82px;display:flex;align-items:center;gap:12px;padding:12px;background:var(--panel);border:1px solid var(--line);box-shadow:none}
+.organizations-row .featured-organization{grid-column:1/-1;min-height:112px;padding:18px 20px;border:1px solid #b18a4c;background:linear-gradient(110deg,#f0e7d7 0%,#fbf9f4 62%);gap:18px}
+.organizations-row .featured-organization img,.organizations-row .featured-organization .organization-mark{flex-basis:78px;width:78px;height:72px;padding:6px;background:#fff;border:1px solid #d8c7a8}
+.organizations-row .featured-organization .organization-copy strong{font:600 1.12rem/1.25 var(--serif);color:#20252b}
+.organizations-row .featured-organization .organization-copy p{font-size:.8rem;line-height:1.55;color:#515a63}
+.org-feature-label{display:block;font-size:.58rem;font-weight:800;letter-spacing:.14em;color:#8a6428;margin-bottom:5px}
+.lsdt-mark{font-size:.95rem!important;letter-spacing:.04em}
 .organizations-row .organization-item img,.organizations-row .organization-mark{flex:0 0 54px;width:54px;height:48px;object-fit:contain}
 .organization-copy{min-width:0}
 .organization-copy strong{display:block;font-size:.82rem;line-height:1.3}
@@ -309,7 +315,7 @@ body[data-page="projects"] .selected-section{display:block!important}
   <div class="org-inline">
    <div class="org-inline-head"><span class="label">Organizations & communities</span><p>Groups where I have contributed, built, or served.</p></div>
    <div class="organizations-row" id="organizationsGrid">
-    <div class="organization-item"><img src="https://ritaneupane.com.np/media/organization/3ca5c76a-4348-4859-8dcd-963f6ff75dc4?v=85889fb2-a5e6-4e04-8824-ababb4ae4f12" alt="LSDT logo"><div class="organization-copy"><strong>Leadership Skill Development Training</strong><p>Free weekly leadership and public-speaking program in Bhairahawa.</p></div></div>
+    <div class="organization-item featured-organization"><img src="https://ritaneupane.com.np/media/organization/3ca5c76a-4348-4859-8dcd-963f6ff75dc4?v=85889fb2-a5e6-4e04-8824-ababb4ae4f12" alt="LSDT logo" onerror="this.hidden=true;this.insertAdjacentHTML('afterend','<span class=&quot;organization-mark lsdt-mark&quot;>LSDT</span>')"><div class="organization-copy"><span class="org-feature-label">CO-FOUNDED · WEEKLY COMMUNITY PROGRAM</span><strong>Leadership Skill Development Training (LSDT)</strong><p>Free weekly leadership and public-speaking program in Bhairahawa, built with local students and community members.</p></div></div>
     <div class="organization-item"><span class="organization-mark">ICT</span><div class="organization-copy"><strong>ICT Club · Horizon G.B.S.</strong><p>School technology club for coding competitions, events, and AI workshops.</p></div></div>
     <div class="organization-item"><img src="https://library.rsamdio.org/resources/rotaract_simple.png" alt="Rotaract logo"><div class="organization-copy"><strong>Rotaract Club of Matribhumi Baluwatar</strong><p>Community service, relief fundraising, and local outreach.</p></div></div>
     <div class="organization-item"><span class="organization-mark">IOE</span><div class="organization-copy"><strong>IOE Past Papers</strong><p>Student-built archive helping engineering students find and verify past papers.</p></div></div>
