@@ -303,12 +303,74 @@ body[data-page="home"] #projectsGrid .project-entry:nth-child(n+4){display:none}
  .impact-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 
+
+/* Homepage hero: use the full right column and make the portrait a purposeful, interactive feature */
+@media(min-width:801px){
+ body[data-page="home"] .hero{grid-template-columns:minmax(0,1.08fr) minmax(360px,.92fr);gap:clamp(34px,5vw,68px);align-items:center;padding-top:58px;padding-bottom:58px;min-height:620px}
+}
+body[data-page="home"] .portrait{
+ position:relative;width:100%;max-width:470px;justify-self:stretch;align-self:center;
+ margin:0 0 18px auto;padding:0 0 22px 22px;isolation:isolate;cursor:default;
+ transition:transform .35s ease;
+}
+body[data-page="home"] .portrait:before{
+ content:"";position:absolute;z-index:-1;inset:22px 0 0 22px;
+ border:1px solid #b99a5a;transition:transform .35s ease,border-color .35s ease;
+}
+body[data-page="home"] .portrait:after{
+ content:"";position:absolute;z-index:-1;width:92px;height:92px;right:-13px;top:-13px;
+ background:radial-gradient(circle,#9a742d 1.2px,transparent 1.4px);background-size:9px 9px;opacity:.55;
+}
+body[data-page="home"] .portrait img,
+body[data-page="home"] .portrait .placeholder{
+ display:block;width:100%;aspect-ratio:4/4.65;object-fit:cover;object-position:center 32%;
+ border:1px solid #d7cdb9;border-radius:2px;background:#ebe2cf;
+ box-shadow:0 22px 55px rgba(50,42,25,.14);transition:transform .55s cubic-bezier(.2,.7,.2,1),filter .35s ease;
+}
+body[data-page="home"] .portrait-kicker{
+ position:absolute;z-index:2;top:14px;left:38px;right:16px;display:flex;justify-content:space-between;gap:10px;
+ color:#fff8e9;font-size:.57rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;
+ text-shadow:0 1px 8px #0008;pointer-events:none;
+}
+body[data-page="home"] .portrait .photo-caption{
+ position:absolute;z-index:2;left:38px;right:16px;bottom:38px;margin:0;padding:48px 18px 17px;
+ color:#fff8e9;background:linear-gradient(transparent,rgba(22,25,31,.82));border:0;
+}
+body[data-page="home"] .portrait .photo-caption strong{font:600 clamp(1.45rem,2.6vw,2rem)/1.1 "Lora",Georgia,serif;color:#fff8e9}
+body[data-page="home"] .portrait .photo-caption span{display:block;margin-top:6px;color:#f1e8d8;font-size:.67rem;letter-spacing:.07em}
+body[data-page="home"] .portrait-explore{
+ position:absolute;z-index:3;right:16px;bottom:0;display:flex;align-items:center;gap:18px;
+ padding:11px 15px;background:#596270;color:#fff8e9;border:1px solid #596270;
+ font-size:.67rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+ transition:background .2s ease,transform .2s ease;
+}
+body[data-page="home"] .portrait-explore span{font-size:1rem;transition:transform .2s ease}
+body[data-page="home"] .portrait-explore:hover{background:#343b46;color:#fff;transform:translateY(-3px)}
+body[data-page="home"] .portrait-explore:hover span{transform:translate(3px,3px)}
+@media(hover:hover) and (min-width:801px){
+ body[data-page="home"] .portrait:hover{transform:translateY(-5px)}
+ body[data-page="home"] .portrait:hover:before{transform:translate(-7px,-7px);border-color:#9a742d}
+ body[data-page="home"] .portrait:hover img{transform:scale(1.012);filter:saturate(1.04)}
+}
+@media(max-width:800px){
+ body[data-page="home"] .hero{grid-template-columns:minmax(0,1fr);gap:32px;min-height:0}
+ body[data-page="home"] .portrait{width:min(100%,480px);max-width:480px;justify-self:start;margin:0 auto 18px 0}
+ body[data-page="home"] .portrait img,body[data-page="home"] .portrait .placeholder{aspect-ratio:4/4.7}
+}
+@media(max-width:540px){
+ body[data-page="home"] .portrait{padding:0 0 17px 13px}
+ body[data-page="home"] .portrait:before{inset:17px 0 0 13px}
+ body[data-page="home"] .portrait-kicker{left:25px;top:11px;font-size:.5rem}
+ body[data-page="home"] .portrait .photo-caption{left:25px;right:10px;bottom:30px;padding:38px 13px 13px}
+ body[data-page="home"] .portrait-explore{right:10px;padding:9px 11px;font-size:.59rem}
+}
+
 </style>
 </head>
 <body>
 <header class="nav"><div class="wrap navinner"><a class="brand" href="/" data-route-link>ARYAN<span>.</span></a><nav class="links" aria-label="Main navigation"><a href="/" data-route-link data-route="home">Home</a><a href="/research" data-route-link data-route="research">Research</a><a href="/projects" data-route-link data-route="projects">Projects</a><a href="/experience" data-route-link data-route="experience">Experience</a><a href="/people" data-route-link data-route="people">People</a><a href="/about" data-route-link data-route="about">About</a></nav></div></header>
 <main id="top">
-<section class="wrap hero" data-pages="home"><div><p class="eyebrow">Technology · Data · Software · Community</p><h1><span id="headline1">Aryan</span><br><span id="headline2">Bhusal</span></h1><p class="lead" id="tagline">Research, statistical analysis, public-health data, and machine learning.</p><div class="actions"><a class="textlink" href="/research" id="cta" data-route-link>Explore my work →</a><a class="textlink dark" href="/projects" data-route-link>Selected work →</a><a class="textlink dark" href="https://github.com/Aryan-infinite" target="_blank" rel="noreferrer">GitHub ↗</a><a class="textlink dark hidden" id="cvLink" href="#" target="_blank" rel="noreferrer">Download CV ↗</a></div><div class="education-block"><p class="tiny-label">Education</p><div id="educationGrid" class="education-list"></div></div></div><div class="portrait" id="portrait"><div class="placeholder">AB</div><div class="photo-caption"><strong id="profileName">Aryan Bhusal</strong><span id="roleTitle">Technology · Data · Software · Community</span></div></div></section>
+<section class="wrap hero" data-pages="home"><div><p class="eyebrow">Technology · Data · Software · Community</p><h1><span id="headline1">Aryan</span><br><span id="headline2">Bhusal</span></h1><p class="lead" id="tagline">Research, statistical analysis, public-health data, and machine learning.</p><div class="actions"><a class="textlink" href="/research" id="cta" data-route-link>Explore my work →</a><a class="textlink dark" href="/projects" data-route-link>Selected work →</a><a class="textlink dark" href="https://github.com/Aryan-infinite" target="_blank" rel="noreferrer">GitHub ↗</a><a class="textlink dark hidden" id="cvLink" href="#" target="_blank" rel="noreferrer">Download CV ↗</a></div><div class="education-block"><p class="tiny-label">Education</p><div id="educationGrid" class="education-list"></div></div></div><div class="portrait" id="portrait"><div class="placeholder">AB</div><div class="portrait-kicker"><span>PROFILE / 01</span><span>BHAIRAHAWA, NEPAL</span></div><div class="photo-caption"><strong id="profileName">Aryan Bhusal</strong><span id="roleTitle">Technology · Data · Software · Community</span></div><a class="portrait-explore" href="#about" aria-label="Explore Aryan’s story">Explore my story <span>↘</span></a></div></section>
 <section class="impact-strip" data-pages="home"><div class="wrap"><div class="impact-heading"><span class="label">A few numbers</span><p>Evidence of work beyond the page.</p></div><div class="impact-grid">
 <div><strong>4</strong><span>Research outputs</span></div>
 <div><strong>257+</strong><span>LSDT sessions</span></div>
