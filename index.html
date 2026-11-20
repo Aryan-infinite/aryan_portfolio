@@ -141,6 +141,18 @@ body[data-page="people"] .selected-section,
 body[data-page="about"] .selected-section{display:none!important}
 body[data-page="projects"] .selected-section{display:block!important}
 @media(max-width:620px){body[data-page="home"] .hero[data-pages~="home"]{display:flex!important}}
+
+/* Organization cards: genuine marks, balanced scale, no empty placeholders */
+.organizations-section{background:#eee8dc;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:35px 0 39px}
+.organizations-section .sectionhead{margin-bottom:17px}
+.organizations-section .sectionhead>p{max-width:460px}
+.organizations-row{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:stretch}
+.organizations-row .organization-item{min-width:0;min-height:104px;display:flex;align-items:center;gap:15px;padding:14px 16px;background:#fbf9f4;border:1px solid #d8d2c7;border-radius:2px;box-shadow:0 2px 8px #342c1d08}
+.organizations-row .organization-item img{flex:0 0 78px;width:78px;height:64px;object-fit:contain;background:#fff;border:1px solid #e6e0d5;border-radius:2px;padding:5px}
+.organizations-row .organization-item strong{font:600 .95rem/1.3 var(--serif);letter-spacing:-.01em;color:#28313a}
+.organizations-row .organization-mark{flex:0 0 54px;width:54px;height:54px;border:1px solid #d8d2c7;border-radius:2px;background:#f1ece2;color:#8a682f;font-size:.8rem}
+@media(max-width:800px){.organizations-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.organizations-section{padding:29px 0}.organizations-row{grid-template-columns:1fr;gap:9px}.organizations-row .organization-item{min-height:88px}.organizations-row .organization-item img{width:70px;height:56px;flex-basis:70px}}
 </style>
 </head>
 <body>
@@ -176,6 +188,10 @@ body[data-page="projects"] .selected-section{display:block!important}
    <div class="proof-card"><strong>204 adults</strong><span>Surveyed for the Bhairahawa caffeine study</span></div>
   </div>
  </div>
+</section>
+
+<section class="section organizations-section" id="organizations" data-pages="home experience">
+ <div class="wrap"><div class="sectionhead"><div><span class="label">02 / Organizations & communities</span><h2>People and groups I have built with.</h2></div><p>Learning communities, student-led service, and technology organizations that have shaped my work.</p></div><div class="organizations-row" id="organizationsGrid"></div></div>
 </section>
 
 <section class="section" id="research" data-pages="home research">
@@ -232,9 +248,7 @@ body[data-page="projects"] .selected-section{display:block!important}
  </div>
 </section>
 
-<section class="section organizations-section" id="organizations" data-pages="home experience">
- <div class="wrap"><div class="sectionhead"><div><span class="label">Communities</span><h2>Organizations and teams.</h2></div></div><div class="organizations-row" id="organizationsGrid"></div></div>
-</section>
+
 
 <section class="section" id="about" data-pages="home about">
  <div class="wrap about-home">
