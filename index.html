@@ -411,7 +411,6 @@ async function loadPublicContent(){
   if(settings){$('contactEmail').href='mailto:'+(settings.contact_email||'aryanbhusal783@gmail.com');$('githubLink').href=settings['GitHub']||'https://github.com/Aryan-infinite'}
   $('educationGrid').innerHTML=(education||[]).map(item=>'<div class="education-item"><strong>'+escapeHTML(item.institution)+'</strong><span>'+escapeHTML(item.credential||'')+'</span><em>'+escapeHTML(item.start_date||'')+'–'+escapeHTML(item.end_date||'')+'</em></div>').join('');
   const milestones=(experience||[]).map(item=>({kind:'EXPERIENCE',title:item.role_title,meta:item.organization||'',description:item.description}));if(milestones.length){$('journeyGrid').innerHTML=milestones.map(item=>'<article class="journey-card"><div class="journey-meta">'+escapeHTML(item.kind)+(item.meta?' · '+escapeHTML(item.meta):'')+'</div><h3>'+escapeHTML(item.title||'')+'</h3><p>'+escapeHTML(item.description||'')+'</p></article>').join('')}
-  windowGallery.splice(0,windowGallery.length,...(gallery||[]));
   const list=projects||[];if(list.length)renderCards('projectsGrid',list,'projects');
   if((organizations||[]).length)$('organizationsGrid').innerHTML=organizations.map(org=>'<div class="organization-item">'+(org.logo_url?'<img src="'+safeURL(org.logo_url)+'" alt="'+escapeHTML(org.name)+' logo">':'<span class="organization-mark">'+escapeHTML(org.name.slice(0,2).toUpperCase())+'</span>')+'<strong>'+escapeHTML(org.name)+'</strong></div>').join('');
 }
