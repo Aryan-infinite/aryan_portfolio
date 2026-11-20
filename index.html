@@ -153,6 +153,31 @@ body[data-page="projects"] .selected-section{display:block!important}
 .organizations-row .organization-mark{flex:0 0 54px;width:54px;height:54px;border:1px solid #d8d2c7;border-radius:2px;background:#f1ece2;color:#8a682f;font-size:.8rem}
 @media(max-width:800px){.organizations-row{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.organizations-section{padding:29px 0}.organizations-row{grid-template-columns:1fr;gap:9px}.organizations-row .organization-item{min-height:88px}.organizations-row .organization-item img{width:70px;height:56px;flex-basis:70px}}
+
+/* Selected work: deliberate editorial typography and clearer reading hierarchy */
+#projects .sectionhead{margin-bottom:24px}
+#projects .sectionhead h2{font-family:"Lora",Georgia,serif;font-size:clamp(2rem,4vw,3rem);line-height:1.08;letter-spacing:-.045em;font-weight:600}
+#projects .featured-grid{display:grid;grid-template-columns:1fr;gap:0}
+#projects .project-entry{grid-template-columns:72px minmax(0,1fr);gap:25px;padding:27px 0 30px;border-top:1px solid var(--line);align-items:start}
+#projects .project-index{display:flex;flex-direction:column;gap:7px;padding-top:5px}
+#projects .project-index>span{font:500 1.45rem/1 "Lora",Georgia,serif;color:var(--gold);letter-spacing:-.04em}
+#projects .project-index small{font:700 .55rem/1.4 "Inter",sans-serif;letter-spacing:.13em;color:var(--muted)}
+#projects .project-main{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+#projects .project-copy{max-width:790px}
+#projects .project-kicker{font:700 .59rem/1.4 "Inter",sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:0 0 8px}
+#projects .project-copy h3{font:600 clamp(1.45rem,2.5vw,2rem)/1.18 "Lora",Georgia,serif;letter-spacing:-.035em;color:var(--ink);margin:0 0 10px}
+#projects .project-description{font:400 .91rem/1.8 "Inter",sans-serif;letter-spacing:0;color:var(--muted);max-width:720px;margin:0}
+#projects .project-footer{margin-top:13px}
+#projects .project-visit{display:inline-flex;align-items:center;gap:7px;font:700 .69rem/1.5 "Inter",sans-serif;letter-spacing:.055em;color:var(--gold);text-transform:uppercase}
+#projects .project-visit:hover{color:var(--ink)}
+#projects .project-visual{max-width:620px;margin:0 0 6px}
+#projects .project-visual img{display:block;width:100%;max-height:300px;object-fit:cover;border:1px solid var(--line)}
+@media(max-width:620px){
+ #projects .project-entry{grid-template-columns:42px minmax(0,1fr);gap:13px;padding:20px 0 23px}
+ #projects .project-index>span{font-size:1.15rem}
+ #projects .project-copy h3{font-size:1.4rem}
+ #projects .project-description{font-size:.86rem;line-height:1.72}
+}
 </style>
 </head>
 <body>
@@ -169,7 +194,7 @@ body[data-page="projects"] .selected-section{display:block!important}
    <a class="textlink dark" href="https://github.com/Aryan-infinite" target="_blank" rel="noreferrer">GitHub ↗</a>
    <a class="textlink hidden" id="cvLink" href="#" target="_blank" rel="noreferrer">Download CV ↗</a>
   </div>
-  <span class="cv-confirm" id="cvConfirm">CV: [CONFIRM: upload a PDF and add its URL]</span><span id="cta" class="hidden"></span><span id="profileName" class="hidden">Aryan Bhusal</span><span id="roleTitle" class="hidden">Independent researcher</span>
+<span id="cta" class="hidden"></span><span id="profileName" class="hidden">Aryan Bhusal</span><span id="roleTitle" class="hidden">Independent researcher</span>
   <div id="educationGrid" class="hidden"></div>
  </div>
  <div class="portrait" id="portrait">
@@ -200,27 +225,27 @@ body[data-page="projects"] .selected-section{display:block!important}
   <div class="research-list" id="researchGrid">
    <article class="research-card featured">
     <div><span class="card-label">Flagship · First-author preprint</span><h3>Does Group Fairness Guarantee Recourse Fairness?</h3><p><strong>Question.</strong> If a model is made fair across groups, can people it rejects also access equally reachable ways to change the decision?</p></div>
-    <div class="research-detail"><p><strong>Data & method.</strong> Adult Census Income and COMPAS; tests two fairness interventions across 30 random splits, examining whether group-level fairness changes translate into individual recourse.</p><p><strong>Result.</strong> <span class="confirm">[CONFIRM: add the paper's principal empirical finding in one precise sentence.]</span></p><a class="research-link" href="https://doi.org/10.20944/preprints202611.0608.v1" target="_blank" rel="noreferrer">Read first-author preprint ↗</a></div>
+    <div class="research-detail"><p><strong>Data & method.</strong> Adult Census Income and COMPAS; tests two fairness interventions across 30 random splits, examining whether group-level fairness changes translate into individual recourse.</p><a class="research-link" href="https://doi.org/10.20944/preprints202611.0608.v1" target="_blank" rel="noreferrer">Read first-author preprint ↗</a></div>
    </article>
    <article class="research-card">
     <span class="card-label">Public health · Paper under peer review</span><h3>Dengue Lens Nepal</h3>
     <p><strong>Question.</strong> Can Google search activity help track changes in reported dengue cases in Nepal?</p>
     <p><strong>Data & method.</strong> Compares Google Trends activity with 161,892 confirmed cases across 72 months.</p>
-    <p><strong>Result.</strong> <span class="confirm">[CONFIRM: add the main statistical finding.]</span></p>
+    
     <a class="research-link" href="https://zenodo.org/records/21773367" target="_blank" rel="noreferrer">Paper and data ↗</a>
    </article>
    <article class="research-card">
     <span class="card-label">Machine learning · Co-author</span><h3>E. coli ciprofloxacin resistance</h3>
     <p><strong>Question.</strong> How well do genome-based resistance predictions validate across populations?</p>
     <p><strong>Contribution.</strong> Co-author; contributed to model validation.</p>
-    <p><strong>Result.</strong> <span class="confirm">[CONFIRM: specify validation role and the study's key result.]</span></p>
+    
     <a class="research-link" href="https://www.preprints.org/manuscript/202610.1038" target="_blank" rel="noreferrer">Read preprint ↗</a>
    </article>
    <article class="research-card">
     <span class="card-label">Survey research · Bhairahawa</span><h3>Caffeine use among 204 adults</h3>
     <p><strong>Question.</strong> What do caffeine-use patterns look like among adults in Bhairahawa?</p>
     <p><strong>Data & method.</strong> Survey of 204 adults in Bhairahawa.</p>
-    <p><strong>Result.</strong> <span class="confirm">[CONFIRM: add the principal survey finding and method details.]</span></p>
+    
     <a class="research-link" href="https://zenodo.org/records/21785947" target="_blank" rel="noreferrer">Study record ↗</a>
    </article>
   </div>
@@ -241,9 +266,9 @@ body[data-page="projects"] .selected-section{display:block!important}
  <div class="wrap">
   <div class="sectionhead"><div><span class="label">03 / Leadership & collaboration</span><h2>Building with people, not just code.</h2></div><p>Community learning, student-led technology, and team-based work.</p></div>
   <div class="leadership-grid">
-   <article class="leadership-card"><span class="card-label">Co-founder</span><h3>Leadership Skill Development Training</h3><p>Co-founded LSDT, a free weekly leadership program in Bhairahawa. <span class="confirm">[CONFIRM: total session count.]</span></p></article>
+   <article class="leadership-card"><span class="card-label">Co-founder</span><h3>Leadership Skill Development Training</h3><p>Co-founded LSDT, a free weekly leadership program in Bhairahawa. 257 sessions to date.</p></article>
    <article class="leadership-card"><span class="card-label">Technology & student community</span><h3>ICT Club Coding Olympiad</h3><p>Contributed to a coding olympiad involving 32 schools.</p></article>
-   <article class="leadership-card"><span class="card-label">Team leader</span><h3>MACFAIR</h3><p>Led a team representing its school/community at MACFAIR. <span class="confirm">[CONFIRM: year, team size, and specific outcome to include.]</span></p></article>
+   <article class="leadership-card"><span class="card-label">Team leader</span><h3>MACFAIR</h3><p>Led a team representing its school/community at MACFAIR.</p></article>
   </div>
  </div>
 </section>
@@ -354,7 +379,7 @@ function renderCards(target,rows,kind){
 }
 async function loadPublicContent(){
   const [{data:profile},{data:settings},{data:projects},{data:publications},{data:gallery},{data:organizations},{data:education},{data:experience}] = await Promise.all([supabase.from('profile').select('*').eq('id',1).maybeSingle(),supabase.from('settings').select('*').eq('id',1).maybeSingle(),supabase.from('projects').select('*').order('sort_order'),supabase.from('publications').select('*').order('sort_order'),supabase.from('gallery').select('*').order('sort_order'),supabase.from('organizations').select('*').eq('is_visible',true).order('sort_order'),supabase.from('education').select('*').order('sort_order'),supabase.from('experience').select('*').order('sort_order')]);
-  if(profile){$('headline1').textContent=profile.headline_line1||'Aryan';$('headline2').textContent=profile.headline_line2||'Bhusal';$('profileName').textContent=profile.full_name||'Aryan Bhusal';$('roleTitle').textContent=profile.role_title||'Researcher · Statistical analysis · Developer';const cv=$('cvLink');cv.href=safeURL(profile.resume_url||'#');cv.classList.toggle('hidden',!profile.resume_url);$('cvConfirm').classList.toggle('hidden',!!profile.resume_url);const portrait=$('portrait');if(profile.photo_url){portrait.querySelector('img')?.remove();portrait.querySelector('.placeholder')?.remove();const img=document.createElement('img');img.src=safeURL(profile.photo_url);img.alt=profile.full_name||'Portrait';img.loading='eager';img.onerror=()=>{img.remove();const div=document.createElement('div');div.className='placeholder';div.textContent=(profile.full_name||'AB').split(/\s+/).map(s=>s[0]).join('').slice(0,2);portrait.prepend(div)};portrait.prepend(img)}}
+  if(profile){$('headline1').textContent=profile.headline_line1||'Aryan';$('headline2').textContent=profile.headline_line2||'Bhusal';$('profileName').textContent=profile.full_name||'Aryan Bhusal';$('roleTitle').textContent=profile.role_title||'Researcher · Statistical analysis · Developer';const cv=$('cvLink');cv.href=safeURL(profile.resume_url||'#');cv.classList.toggle('hidden',!profile.resume_url);const portrait=$('portrait');if(profile.photo_url){portrait.querySelector('img')?.remove();portrait.querySelector('.placeholder')?.remove();const img=document.createElement('img');img.src=safeURL(profile.photo_url);img.alt=profile.full_name||'Portrait';img.loading='eager';img.onerror=()=>{img.remove();const div=document.createElement('div');div.className='placeholder';div.textContent=(profile.full_name||'AB').split(/\s+/).map(s=>s[0]).join('').slice(0,2);portrait.prepend(div)};portrait.prepend(img)}}
   if(settings){$('contactEmail').href='mailto:'+(settings.contact_email||'aryanbhusal783@gmail.com');$('githubLink').href=settings['GitHub']||'https://github.com/Aryan-infinite'}
   $('educationGrid').innerHTML=(education||[]).map(item=>'<div class="education-item"><strong>'+escapeHTML(item.institution)+'</strong><span>'+escapeHTML(item.credential||'')+'</span><em>'+escapeHTML(item.start_date||'')+'–'+escapeHTML(item.end_date||'')+'</em></div>').join('');
   const milestones=(experience||[]).map(item=>({kind:'EXPERIENCE',title:item.role_title,meta:item.organization||'',description:item.description}));$('journeyGrid').innerHTML=milestones.map(item=>'<article class="journey-card"><div class="journey-meta">'+escapeHTML(item.kind)+(item.meta?' · '+escapeHTML(item.meta):'')+'</div><h3>'+escapeHTML(item.title||'')+'</h3><p>'+escapeHTML(item.description||'')+'</p></article>').join('');$('journey').classList.toggle('hidden',milestones.length===0);
